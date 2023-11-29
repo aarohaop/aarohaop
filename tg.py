@@ -4,12 +4,12 @@ import CommandHandler, MessageHandler, Filters, Updater
 import requests
 
 # Replace 'YOUR_BOT_TOKEN' with your actual bot token
-bot_token = 'YOUR_BOT_TOKEN'
+bot_token = '6538568462:AAEKlmAr7br3KRtmUVCD6sH6jWsArokT5k8'
 bot = telegram.Bot(token=bot_token)
 
 # Replace 'YOUR_API_KEY' with the actual API key for the URL shortener
-url_shortener_api_key = 'YOUR_API_KEY'
-url_shortener_api_url = 'https://api.url-shortener.com/'
+url_shortener_api_key = '12b2d8281afa6d870f9b44bd0cba166704c7ea50'
+url_shortener_api_url = 'https://ez4short.xyz/'
 
 # Example user data (replace with actual data)
 user_data = {
