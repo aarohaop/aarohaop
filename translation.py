@@ -140,7 +140,7 @@ ABOUT_REPLY_MARKUP = InlineKeyboardMarkup([
 START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
     [
         InlineKeyboardButton('📢 Channel', url=f'{CHANNEL_LINK}'),
-        InlineKeyboardButton('📕 About', callback_data='about_dkbotz')
+        InlineKeyboardButton('📕 About', callback_data='ABOUT_TEXT')
     ],
     [
         InlineKeyboardButton('💵 Balance', callback_data='dkbotz_balance')
@@ -160,7 +160,7 @@ START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
 OLD_START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
     [
         InlineKeyboardButton('📢 Channel', url=f'{CHANNEL_LINK}'),
-        InlineKeyboardButton('📕 About', callback_data='about_dkbotz')
+        InlineKeyboardButton('📕 About', callback_data='ABOUT_TEXT')
     ],
     [
         InlineKeyboardButton('💵 Balance', callback_data='dkbotz_balance')
