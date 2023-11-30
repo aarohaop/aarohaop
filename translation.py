@@ -76,7 +76,7 @@ Available commands:
 Use the commands to know more about the same
 Below are some features I provide'''
 
-ABOUT_TEXT = """
+ABOUT_TEXT = ''' ... '''
 
 
 CUSTOM_ALIAS_MESSAGE = """For Custom Alias, `[link] | [custom_alias]`, Send in this format
