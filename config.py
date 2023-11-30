@@ -11,7 +11,7 @@ load_dotenv()
 # Mandatory variables for the bot to start
 API_ID = int(os.environ.get("API_ID", '21159773')) #API ID from https://my.telegram.org/auth
 API_HASH = os.environ.get("API_HASH", '49ae08543a07335e195756eba2f56e11') #API Hash from https://my.telegram.org/auth
-BOT_TOKEN = os.environ.get("BOT_TOKEN", '6551870400:AAGdfQUNT1YMZ0VE7zb3eXzH1LJLlBk7Q24') # Bot token from @BotFather
+BOT_TOKEN = os.environ.get("BOT_TOKEN", '6710510477:AAE3YFDMHWT3d6prygYFzlc285OmpQPpZB0') # Bot token from @BotFather
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split(",")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
 DATABASE_NAME = os.environ.get("DATABASE_NAME", 'SHARE')
