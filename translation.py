@@ -62,7 +62,7 @@ Helpful commands:
 
 - /start: Starts me! You've probably already used this.
 - /help: Sends this message; I'll tell you more about myself!
-If You Have Any Problem Then Contact - @DKBOTZHELP_2
+If You Have Any Problem Then Contact - @EZ4short_support
 
 Available commands:
 
