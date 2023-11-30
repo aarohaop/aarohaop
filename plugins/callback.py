@@ -22,7 +22,7 @@ from bot import *
 logger = logging.getLogger(__name__)
 
 
-@Client.on_callback_query(filters.regex(r"^dkbotz_settings"))
+@Client.on_callback_query(filters.regex(r"dkbotz_settings"))
 async def dkbotz_settingsbyshoirt(c:Client,m: CallbackQuery):
     try:
         user = await get_user(m.from_user.id)
@@ -40,7 +40,7 @@ async def dkbotz_settingsbyshoirt(c:Client,m: CallbackQuery):
     except Exception as e:
         await m.answer(e, show_alert=True)
 
-@Client.on_callback_query(filters.regex(r"^dkbotz_balance"))
+@Client.on_callback_query(filters.regex(r"dkbotz_balance"))
 async def shortner_balance(c:Client,m: CallbackQuery):
     try:
         user = await get_user(m.from_user.id)
@@ -63,7 +63,7 @@ async def shortner_balance(c:Client,m: CallbackQuery):
     except Exception as e:
         await m.answer(e, show_alert=True)
 
-@Client.on_callback_query(filters.regex(r"^ban"))
+@Client.on_callback_query(filters.regex(r"ban"))
 async def ban_cb_handler(c:Client,m: CallbackQuery):
     try:
         user_id = m.data.split("#")[1]
@@ -93,7 +93,7 @@ async def ban_cb_handler(c:Client,m: CallbackQuery):
     except Exception as e:
         logging.exception(e, exc_info=True)
 
-@Client.on_callback_query(filters.regex("^unban"))
+@Client.on_callback_query(filters.regex("unban"))
 async def unban_cb_handler(c, m: CallbackQuery):
     user_id = m.data.split("#")[1]
     user = await get_user(int(user_id))
@@ -112,7 +112,7 @@ async def unban_cb_handler(c, m: CallbackQuery):
         await m.answer("User doesn't exist", show_alert=True)
 
 
-@Client.on_callback_query(filters.regex("^setgs"))
+@Client.on_callback_query(filters.regex("setgs"))
 async def user_setting_cb(c, query: CallbackQuery):
     _, setting, toggle, user_id = query.data.split('#')
     myvalues = {setting: toggle == "True"}
