@@ -77,13 +77,7 @@ Use the commands to know more about the same
 Below are some features I provide'''
 
 ABOUT_TEXT = """
-**My Details:**
-`🤖 Name:` ** {} **
-    
-`📝 Language:` [Python 3](https://www.python.org/)
-`🧰 Framework:` [Pyrogram](https://github.com/pyrogram/pyrogram)
-`👨‍💻 Developer:` [Support Team](t.me/ez4short_Support)
-"""
+
 
 CUSTOM_ALIAS_MESSAGE = """For Custom Alias, `[link] | [custom_alias]`, Send in this format
 
