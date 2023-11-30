@@ -48,7 +48,7 @@ Example:** `/set_api cbd63775f798fe0e58c67a56e6ce8b70c495cda4 `
 '''
 
 HELP_MESSAGE = '''
-**Hey! My name is {firstname}. I am a {username}.**
+**Hey! My name is {username}. I am a {username}.**
 
 Features 
 
