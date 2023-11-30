@@ -84,11 +84,11 @@ ABOUT_TEXT = """
 
 `🧰 Framework:` [Pyrogram](https://github.com/pyrogram/pyrogram)
 
-`👨‍💻 Developer:` [Anonymous](t.me/DKBOTZHELP_2)
+`👨‍💻 Developer:` [EZ4short](t.me/EZ4short_support)
 
-`📢 Support:` [Anonymous](https://t.me/DKBOTZ)
+`📢 Support:` [EZ4short](https://t.me/EZ4short_support)
 
-`🌐 Source Code:` **[Click Here](https://t.me/DKBOTZHELP_2)**
+`🌐 Source Code:` **[Click Here](https://t.me/EZ4short_support)**
 """
 
 CUSTOM_ALIAS_MESSAGE = """For Custom Alias, `[link] | [custom_alias]`, Send in this format
