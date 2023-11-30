@@ -15,7 +15,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", '6538568462:AAEKlmAr7br3KRtmUVCD6sH6jWsA
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split(",")] if os.environ.get("5886772061") else []
 ADMIN = ADMINS
 DATABASE_NAME = os.environ.get("DATABASE_NAME", 'SHARE')
-DATABASE_URL = os.environ.get("DATABASE_URL", 'mongodb+srv://SK:SK@cluster0.hbkrl.mongodb.net/?retryWrites=true&w=majority') # mongodb uri from https://www.mongodb.com/
+DATABASE_URL = os.environ.get("DATABASE_URL",'mongodb+srv://aaroha:aaroha@cluster0.f4fgsvs.mongodb.net/?retryWrites=true&w=majority') # mongodb uri from https://www.mongodb.com/
 OWNER_ID =  int(os.environ.get("OWNER_ID", '5886772061')) # id of the owner
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 ADMINS.append(5886772061)
