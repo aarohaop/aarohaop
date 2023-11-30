@@ -1,7 +1,7 @@
 from pyrogram.types import *
 from config import *
 
-shortner_link = WebAppInfo(url=f"https://ez4short.xyz/member/tools/api?bot=true")
+shortner_link = WebAppInfo(url=f"https://{SHORTNER_LINK}/member/tools/api?bot=true")
 
 BALANCE_TEXT = '''Your Details
 
