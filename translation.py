@@ -77,8 +77,12 @@ Use the commands to know more about the same
 Below are some features I provide'''
 
 ABOUT_TEXT = """
-Welcome to EZ4short Link Converter BOT, your link-shortening companion that lets you share and earn money effortlessly. With us, you can shrink links, share them, and watch your earnings grow. It's that simple!
-
+**My Details:**
+`🤖 Name:` ** {} **
+    
+`📝 Language:` [Python 3](https://www.python.org/)
+`🧰 Framework:` [Pyrogram](https://github.com/pyrogram/pyrogram)
+`👨‍💻 Developer:` [Support Team](t.me/ez4short_Support)
 """
 
 CUSTOM_ALIAS_MESSAGE = """For Custom Alias, `[link] | [custom_alias]`, Send in this format
