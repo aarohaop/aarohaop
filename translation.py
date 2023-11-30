@@ -76,10 +76,7 @@ Available commands:
 Use the commands to know more about the same
 Below are some features I provide'''
 
-ABOUT_TEXT = '''
-About Me:
-
-Welcome to EZ4short Link Converter BOT, your link-shortening companion that lets you share and earn money effortlessly. With us, you can shrink links, share them, and watch your earnings grow. It's that simple!
+ABOUT_TEXT = """Welcome to EZ4short Link Converter BOT, your link-shortening companion that lets you share and earn money effortlessly. With us, you can shrink links, share them, and watch your earnings grow. It's that simple!
 
 Key Features:
 Link Shortening: Easily shorten links for convenient sharing.
@@ -87,7 +84,7 @@ Earnings: Make money every time someone clicks on your links.
 User-Friendly: Our bot is designed for ease of use.
 Statistics: Keep track of your earnings and link performance.
 Security: Your data and links are safe with us.
-Support: We're here to assist you whenever you need help.@EZ4short_support'''
+Support: We're here to assist you whenever you need help.@EZ4short_support"""
 
 CUSTOM_ALIAS_MESSAGE = """For Custom Alias, `[link] | [custom_alias]`, Send in this format
 
