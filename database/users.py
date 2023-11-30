@@ -22,7 +22,7 @@ async def get_user(user_id):
             "header_text": "",
             "footer_text": "",
             "username": None,
-            "base_site": SHORTNER_LINK,
+            "base_site": "ez4short.xyz",
             "banner_image": None,
             "is_banner_image": True,
             "is_username": True,
